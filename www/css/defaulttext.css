@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Assisstant';
+    src: url('Assistant-VariableFont_wght.tff') format('truetype');
+}
+
+h1, h2, h3, h4, p, li, th, td {
+  font-family: 'Assistant', Fallback, sans-serif;
+  color: lightgrey;
+}
+
+h1 {
+  font-size: 37px;
+  font-weight: bold;
+  font-style: normal;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+h3 {
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}
+
+h4 {
+  font-size: 17px;
+  text-shadow: 1.5px 1.5px black;
+}
+
+p, li{
+  font-size: 20px;
+  text-shadow: 1.5px 1.5px black;
+}
+
+th{
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+td {
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}

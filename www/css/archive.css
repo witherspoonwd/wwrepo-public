@@ -1,0 +1,163 @@
+@import url("defaulttext.css"); /* calls in default text settings */
+
+body {
+  background-image: url("tiles/jpg/bluesnake.jpg");
+  background-color: #4d65b8;
+  background-attachment: fixed;
+  margin: auto;
+  width: 80%;
+}
+
+.dacenta {
+  justify-content: center;
+  display: flex;
+}
+
+.wholeContentContainer {
+  /* min-width: 920px; */
+}
+
+#logo h1 {
+  /* Font shit */
+  font-family: Arial;
+  font-size: 3.5vw;
+  font-style: italic;
+  text-shadow: 4px 4px black;
+  text-align: center;
+  color: #05d496;
+
+  /* positioning shit */
+  margin: 10px;
+}
+
+#logo a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #05d496;
+}
+
+#logo a:link, a:visited, a:hover, a:active, a:focus{
+  color: #05d496;
+}
+
+
+
+#nav {
+  /* appearance shit */
+  background: rgb(103,123,210);
+  background: linear-gradient(180deg, rgba(103,123,210,1) 0%, rgba(72,89,166,1) 100%);
+
+  /* positioning shit */
+  text-align: center;
+  display: block;
+
+  /* border shit */
+  border-style: solid;
+  border-width: 2px;
+  border-color: 570605;
+}
+
+#nav li{
+  display: inline;
+  margin: 25px;
+  font-size: 25px;
+  font: bahnscrift;
+  font-style: normal;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
+}
+
+a:visited, a:link{
+  color: lightgrey;
+}
+
+a:hover{
+  color: red;
+}
+
+#main {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background: rgb(75,102,218);
+  background: linear-gradient(90deg, rgba(75,102,218,1) 0%, rgba(55,76,168,1) 100%);
+  border-width: 2px;
+  border-color: black;
+
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#greetingbox {
+  /* Border shit */
+  border-style: solid;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-color: black;
+}
+
+#greetingbox h1 {
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  background-image: url("tiles/jpg/cloudymilk.jpg");
+  background-color: #6581c1;
+  background-attachment: fixed;
+  background-size: 500px 500px;
+}
+
+.greekgods {
+  width: 33.3333%;
+  width: calc(100% / 3);
+}
+
+.greekgods a:link, .greekgods a:visited, .greekgods a:hover, .greekgods a:active {
+  text-decoration: none;
+}
+
+
+#leftsidewrapper h1, #rightsidewrapper h1, #centercontentwrapper h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#leftsidewrapper img, #rightsidewrapper img, #centercontentwrapper img {
+  display: flex;
+  justify-content: center;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+  #footer a:visited, #footer a:link, #footer a:hover {
+    color: #00DF13;
+  }
+
+  /* snapping and tablet code */
+    @media screen and (max-width: 1200px) {
+      body {
+        width: 100%;
+      }
+
+      #logo h1 {
+        font-size: 7vw;
+      }
+
+      #footer {
+        margin-left: 2%;
+      }
+    }
