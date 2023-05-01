@@ -1,4 +1,4 @@
-# Willwitherspoon.net
+# WillWitherspoon.net
 
 This is the public-facing repository for my currently live personal blog that can be found at [willwitherspoon.net](https://willwitherspoon.net/).
 
